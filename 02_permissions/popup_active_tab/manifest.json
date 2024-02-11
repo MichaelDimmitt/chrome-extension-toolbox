@@ -11,6 +11,11 @@
     "128": "images/icon-128.png"
   },
   "action": {
-    "default_popup": "popup.html"
-  }
+    "default_popup": "popup_active_tab.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+
 }

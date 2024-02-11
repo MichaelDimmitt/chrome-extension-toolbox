@@ -20,4 +20,26 @@ activateButtons() // go ahead and run it on every popup click
 
 function initiateScript() {
   alert('button clicked')
+
+  // get the active tab and set it within the file. Requires permission: active-tab  in manifest.json
+  let activeTab;
+  chrome.tabs.query(
+    {
+          active:true,
+          windowType:"normal",
+          currentWindow: true
+    },
+    function(d){activeTab = d[0].id}
+  )
+
+  setTimeout(() => { // execute a script on the active tab context. Requires permission: scripting and active-tab in manifest.json
+    chrome.scripting.executeScript({
+      target: {tabId: activeTab},
+      func: helloFromActiveTab
+    })
+  }, 300)
+}
+
+function helloFromActiveTab () {
+  alert('popup initiated hello from: ', {url: window.location.href})
 }
