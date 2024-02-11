@@ -36,4 +36,6 @@ Being able to program chrome extensions requires a few skills:
 3. Chrome Extension frameworks exist for doing things like interacting with react or building stuff using vuejs.  
    1. this repo will not cover that as it is meant to be super simple and no setup.
    2. also I do not have experience with it but it should be pretty straightforward. 
-   3. to start in that direction I would look at: https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplates
+   3. to start in that direction I would look at:  
+https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplates
+4. Let me know if anything else should be added. hopefully this helps you in your hiring process.
