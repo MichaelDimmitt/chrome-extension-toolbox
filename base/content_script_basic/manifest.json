@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Reading time",
+  "name": "Content Script Example",
   "version": "1.0",
-  "description": "Add the reading time to Chrome Extension documentation articles",
+  "description": "runs a script when one of the urls in manifest matches and puts you on the websites context.",
 
   "icons": {
     "16": "images/icon-16.png",
@@ -14,7 +14,6 @@
     {
       "js": ["scripts/content.js"],
       "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
         "https://developer.chrome.com/docs/webstore/*"
       ]
     }
