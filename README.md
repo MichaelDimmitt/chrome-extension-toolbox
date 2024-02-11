@@ -19,6 +19,7 @@ Being able to program chrome extensions requires a few skills:
    2. logic - for loops, for each,  map, filter, ... etc  
    3. promises - much of the api calls return promises.  
        here is the chrome api for extensions: https://developer.chrome.com/docs/extensions/reference/api
+   4. how to add and remove event listeners. useful for the popup action to run on button click.
 2. The skill of Knowing how chrome extensions work.  
    1. content_scripts  
       1. run automatically when they match.  
@@ -33,7 +34,13 @@ Being able to program chrome extensions requires a few skills:
           3. storage  
       2. some permissions require the user to accept them in order to become active one such includes:  
           1. clipboardRead  
-3. Chrome Extension frameworks exist for doing things like interacting with react or building stuff using vuejs.  
+3. Security concerns
+   1. be comfortable dealing with browser security restrictions   
+   and how to work around them.
+   2. think about your users and being secure with data.
+      1. make sure what you are storing cannot be exposed to other extensions.
+      2. know about how sensitive the data that you are working with is and act appropriately.  
+4. Chrome Extension frameworks exist for doing things like interacting with react or building stuff using vuejs.  
    1. this repo will not cover that as it is meant to be super simple and no setup.
    2. also I do not have experience with it but it should be pretty straightforward. 
    3. to start in that direction I would look at:  
