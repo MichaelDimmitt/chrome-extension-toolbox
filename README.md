@@ -15,27 +15,25 @@ That does not mean you are able to do the job.
 
 Being able to program chrome extensions requires a few skills:
 1. Javscript Skills  
-   a. dom querying - to be able to see where you are at and make changes to the dom.
-   b. logic - for loops, for each,  map, filter, ... etc
-   c. promises - much of the api calls return promises.  
-here is the chrome api for extensions: https://developer.chrome.com/docs/extensions/reference/api
+   1. dom querying - to be able to see where you are at and make changes to the dom.  
+   2. logic - for loops, for each,  map, filter, ... etc  
+   3. promises - much of the api calls return promises.  
+       here is the chrome api for extensions: https://developer.chrome.com/docs/extensions/reference/api
 2. The skill of Knowing how chrome extensions work.  
-   a. content_scripts  
-       1. run automatically when they match.  
-       2. only run when the url matches what is put in manifest file.  
-       3. have the context of the page that they matched on and can see the window of that url.  
-       4. will not be able to see react bindings unless some magic is done.  
-   b. popup actions
-   
-   d. learn how the permissions work in the manifest json file  
-       1. certain extension api calls require permissions to be set in the manifest.json file  
-           a. activeTab  
-           b. scripting  
-           c. storage  
-       2. some permissions require the user to accept them in order to become active one such includes:
-           a. clipboardRead  
-
-3. Chrome Extension frameworks exist for doing things like interacting with react or building stuff using vuejs.
-   a. this repo will not cover that as it is meant to be super simple and no setup.
-   b. also I do not have experience with it but it should be pretty straightforward. 
-   c. to start in that direction I would look at: https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplates
+   1. content_scripts  
+      1. run automatically when they match.  
+      2. only run when the url matches what is put in manifest file.  
+      3. have the context of the page that they matched on and can see the window of that url.  
+      4. will not be able to see react bindings unless some magic is done.  
+   2. popup actions
+   3. learn how the permissions work in the manifest json file  
+      1. certain extension api calls require permissions to be set in the manifest.json file  
+          1. activeTab  
+          2. scripting  
+          3. storage  
+      2. some permissions require the user to accept them in order to become active one such includes:  
+          1. clipboardRead  
+3. Chrome Extension frameworks exist for doing things like interacting with react or building stuff using vuejs.  
+   1. this repo will not cover that as it is meant to be super simple and no setup.
+   2. also I do not have experience with it but it should be pretty straightforward. 
+   3. to start in that direction I would look at: https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplates
