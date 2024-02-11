@@ -45,4 +45,8 @@ Being able to program chrome extensions requires a few skills:
    2. also I do not have experience with it but it should be pretty straightforward. 
    3. to start in that direction I would look at:  
 https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplates
-4. Let me know if anything else should be added. hopefully this helps you in your hiring process.
+5. Let me know if anything else should be added. hopefully this helps you in your hiring process.
+6. TODO: 
+   1. Figure out how to write a test suite for these components.
+   2. Is it possible for me to test them using cypress? (can cypress visit chrome://extensions/ and hit the reset button?)
+   3. Test suite should auto run in the background and make a failure noise if you caused something to fail on the extension.
