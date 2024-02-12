@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Content Script Example",
+  "name": "Popup Extension Example",
   "version": "1.0",
-  "description": "runs a script when one of the urls in manifest matches and puts you on the websites context.",
+  "description": "runs a script when chrome extension is clicked and when the click me button is clicked..",
 
   "icons": {
     "16": "images/icon-16.png",
