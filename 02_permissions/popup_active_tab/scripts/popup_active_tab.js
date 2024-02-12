@@ -41,5 +41,5 @@ function initiateScript() {
 }
 
 function helloFromActiveTab () {
-  alert('popup initiated hello from: ', {url: window.location.href})
+  alert('popup initiated hello from: ' + `${window.location.href}`)
 }
