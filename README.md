@@ -2,7 +2,7 @@
 a bunch of minimal extensions that expose different ways to chrome extension and lets me try out different ideas.
 
 ## Why
-The other day I spotted a post, does anyone have chrome experience.
+The other day I spotted a post: does anyone have chrome extension experience?
 
 My first reaction was to respond that any developer should be able to do it because you can just look at the source of other extensions and see what they did. And while it is true that you can see the source, for instance by looking at this location on a mac computer: https://stackoverflow.com/a/17378420/5283424 .
 
