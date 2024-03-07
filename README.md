@@ -14,7 +14,7 @@ When you get any programming job at a company you get access to the codebase.
 That does not mean you are able to do the job.
 
 Being able to program chrome extensions requires a few skills:
-1. Javscript Skills  
+1. Javascript Skills  
    1. dom querying - to be able to see where you are at and make changes to the dom.  
    2. logic - for loops, for each,  map, filter, ... etc  
    3. promises - much of the api calls return promises.  
