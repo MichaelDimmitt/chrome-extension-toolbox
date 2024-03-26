@@ -62,3 +62,9 @@ Metaphor: (The human journey of learning reality)
 7. You interact with fields and click submit buttons.
 8. You learn about being careful when managing data that you have copied and test that your pockets are not leaking keys.
 9. You may do other things you now have some mighty internal capabilities! wahoo!
+10. Able to mutate state on websites and make api requests getting around cors errors.
+11. when website lock down their api requests   
+   1. Able to use keys
+   2. Able to grab keys off network requests
+   3. Or click buttons to make website to make requests themselves..
+12. 
