@@ -53,18 +53,17 @@ https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplate
 
 
 Metaphor: (The human journey of learning reality)
-1. First, you learn how to respond via console.log or alerts when poked (aka. clicked)
-2. You learn how to mess with reality (dom manipulation)
-3. You learn how to get out of your own head and enter a room, the active room! (a websites context)
-4. You learn to move to a new room.
-5. You learn to keep what you learned from what was in your head (or any preceding room) as you go to the next room. (storing variables within the chrome extension between urls)
-6. You learn how to grab things off the clipboard on the wall.
-7. You interact with fields and click submit buttons.
-8. You learn about being careful when managing data that you have copied and test that your pockets are not leaking keys.
-9. You may do other things you now have some mighty internal capabilities! wahoo!
-10. Able to mutate state on websites and make api requests getting around cors errors.
-11. when website lock down their api requests   
-   1. Able to use keys
-   2. Able to grab keys off network requests
-   3. Or click buttons to make website to make requests themselves..
-12. 
+1. First, you learn how to respond via console.log or alerts when poked (aka. clicked)  
+3. You learn how to mess with reality (dom manipulation)
+4. You learn how to get out of your own head and enter a room, the active room! (a websites context)
+5. You learn to move to a new room.
+6. You learn to keep what you learned from what was in your head (or any preceding room) as you go to the next room. (storing variables within the chrome extension between urls)
+7. You learn how to grab things off the clipboard on the wall.
+8. You interact with fields and click submit buttons.  
+9. You learn about being careful when managing data that you have copied and test that your pockets are not leaking keys.  
+10. You may do other things you now have some mighty internal capabilities! wahoo!  
+11. Able to mutate state on websites and make api requests getting around cors errors.
+12. When website lock down their api requests  
+    1. Able to use keys
+    2. Able to grab keys off network requests
+    3. Or click buttons to make website to make requests themselves.
