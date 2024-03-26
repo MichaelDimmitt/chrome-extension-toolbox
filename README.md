@@ -50,3 +50,15 @@ https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplate
    1. Figure out how to write a test suite for these components.
    2. Is it possible for me to test them using cypress? (can cypress visit chrome://extensions/ and hit the reset button?)
    3. Test suite should auto run in the background and make a failure noise if you caused something to fail on the extension.
+
+
+Metaphor: (The human journey of learning reality)
+1. First, you learn how to respond via console.log or alerts when poked (aka. clicked)
+2. You learn how to mess with reality (dom manipulation)
+3. You learn how to get out of your own head and enter a room, the active room! (a websites context)
+4. You learn to move to a new room.
+5. You learn to keep what you learned from what was in your head (or any preceding room) as you go to the next room. (storing variables within the chrome extension between urls)
+6. You learn how to grab things off the clipboard on the wall.
+7. You interact with fields and click submit buttons.
+8. You learn about being careful when managing data that you have copied and test that your pockets are not leaking keys.
+9. You may do other things you now have some mighty internal capabilities! wahoo!
