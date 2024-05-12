@@ -10,23 +10,15 @@ function activateButtons() {
 }
 activateButtons() // go ahead and run it on every popup click
 
-function initiateScript() {
-
-  var content = {
-    'type': 'script',
-    'api_key': 'foo',
-    'data': 'bar',
-    'inputs': 'baz',
-  };
-  var jsonS = JSON.stringify(content);
-  var blob = new Blob([jsonS], {type: "application/json"});
-  var url  = URL.createObjectURL(blob);
-
-  chrome.downloads.download({
-    url: url, // The object URL can be used as download URL
-    filename: 'cypress.env.json'
-    //...
-  });
+async function initiateScript() {
+    const src = chrome.runtime.getURL("scripts/createJSONFile.js");
+    const {createJSONFile} = await import(src);
+    createJSONFile({
+      'type': 'script',
+      'api_key': 'foo',
+      'data': 'bar',
+      'inputs': 'baz',
+    });
 }
 
 // links: 
