@@ -12,8 +12,16 @@ activateButtons() // go ahead and run it on every popup click
 
 function initiateScript() {
 
-  var blob = new Blob(["array of", " parts of ", "text file"], {type: "text/plain"});
-  var url = URL.createObjectURL(blob);
+  var content = {
+    'type': 'script',
+    'api_key': 'foo',
+    'data': 'bar',
+    'inputs': 'baz',
+  };
+  var jsonS = JSON.stringify(content);
+  var blob = new Blob([jsonS], {type: "application/json"});
+  var url  = URL.createObjectURL(blob);
+
   chrome.downloads.download({
     url: url, // The object URL can be used as download URL
     filename: 'cypress.env.json'
@@ -22,5 +30,7 @@ function initiateScript() {
 }
 
 // links: 
-// 1. https://stackoverflow.com/questions/4845215/making-a-chrome-extension-download-a-file
+// 1. https://stackoverflow.com/a/24162238/5283424
 // 2. https://developer.chrome.com/docs/extensions/reference/api/downloads
+// 3. https://stackoverflow.com/a/26158579/5283424
+// 4. https://github.com/MichaelDimmitt/chrome-extension-toolbox/issues/1
