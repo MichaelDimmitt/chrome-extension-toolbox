@@ -27,7 +27,7 @@ Being able to program chrome extensions requires a few skills:
       3. have the context of the page that they matched on and can see the window of that url.  
       4. will not be able to see react bindings unless some magic is done.  
    2. popup actions
-   3. learn how the permissions work in the manifest json file  
+   3. manifest.json file (learn how the permissions work)
       1. certain extension api calls require permissions to be set in the manifest.json file  
           1. activeTab  
           2. scripting  
@@ -47,19 +47,19 @@ Being able to program chrome extensions requires a few skills:
 https://github.com/fregante/Awesome-WebExtensions?tab=readme-ov-file#boilerplates
 5. Let me know if anything else should be added. hopefully this helps you in your hiring process.
 6. TODO: 
-   1. Figure out how to write a test suite for these components.
+   1. Figure out how to write a test suite for these components. (vue [framework](https://github.com/Kocal/vue-web-extension) runs in a web server)
    2. Is it possible for me to test them using cypress? (can cypress visit chrome://extensions/ and hit the reset button?)
    3. Test suite should auto run in the background and make a failure noise if you caused something to fail on the extension.
 
-
 Metaphor: (The human journey of learning reality)
-1. First, you learn how to respond via console.log or alerts when poked (aka. clicked)  
+1. First, learn to play with a browser console and click things programatically (playground).
+2. You learn how to communicate on your own responding via console.log or alerts when poked (aka. clicked)  
 3. You learn how to mess with reality (dom manipulation)
 4. You learn how to get out of your own head and enter a room, the active room! (a websites context)
-5. You learn to move to a new room.
+5. You learn to move to a new room. (scripting and active tab permission)
 6. You learn to keep what you learned from what was in your head (or any preceding room) as you go to the next room. (storing variables within the chrome extension between urls)
-7. You learn how to grab things off the clipboard on the wall.
-8. You interact with fields and click submit buttons.  
+7. You learn how to grab things off the clipboard on the wall. (clipboard permission)
+8. You interact with fields and click submit buttons. (content script | scripting + active tab permission)
 9. You learn about being careful when managing data that you have copied and test that your pockets are not leaking keys.  
 10. You may do other things you now have some mighty internal capabilities! wahoo!  
 11. Able to mutate state on websites and make api requests getting around cors errors.
