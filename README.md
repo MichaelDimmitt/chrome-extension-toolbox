@@ -1,6 +1,9 @@
 ## chrome-extension-toolbox
 a bunch of minimal extensions that expose different ways to chrome extension and lets me try out different ideas.
 
+This repository was also presented as part of a programming talk. The slides can be found here:
+https://docs.google.com/presentation/d/1pp2KqSRZC1RsY3duk5co5tlQ7NPZCBrVtdJOoONeMUg/edit?usp=sharing
+
 ## Why
 The other day I spotted a post: does anyone have chrome extension experience?
 
