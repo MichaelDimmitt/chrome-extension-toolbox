@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Save from Content Script Context",
+  "version": "1.0",
+  "description": "runs a script when one of the urls in manifest matches and puts you on the websites context.",
+
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
+}
