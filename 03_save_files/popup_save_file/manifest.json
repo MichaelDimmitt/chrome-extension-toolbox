@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Popup Extension Example to save text file",
+  "name": "Save from popup context",
   "version": "1.0",
   "description": "runs a script when chrome extension is clicked and when the click me button is clicked..",
 

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Save from other context",
+  "version": "1.0",
+  "description": "runs a script when chrome extension is clicked and when the click me button is clicked. also accesses active tab using scripting permission.",
+
+  "action": {
+    "default_popup": "popup_active_tab.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+
+}
