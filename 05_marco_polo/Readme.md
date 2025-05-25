@@ -1,4 +1,6 @@
 ### Marco-Polo is a game where you try to find someone with your eyes closed.
+
+### Aka. A chrome extension to automate writing up and guessing at the bug for business people and developers.
 1. Monitor all network requests made by your application
 2. Filter to error code pattern network requests
 3. Read all messages from console
