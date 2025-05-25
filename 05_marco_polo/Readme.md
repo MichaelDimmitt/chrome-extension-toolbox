@@ -5,5 +5,5 @@
 4. Filter to error messages from console
 
 ### links for quick reference:  
-https://developer.chrome.com/docs/extensions/reference/api
+https://developer.chrome.com/docs/extensions/reference/api  
 https://developer.chrome.com/docs/extensions/reference/api/devtools/network - permission: devtools_page
