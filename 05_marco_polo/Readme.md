@@ -3,3 +3,6 @@
 2. Filter to error code pattern network requests
 3. Read all messages from console
 4. Filter to error messages from console
+
+### links for quick reference:  
+https://developer.chrome.com/docs/extensions/reference/api
