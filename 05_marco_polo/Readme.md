@@ -19,6 +19,12 @@ console.log = function(data) {
 }
 ```
 
+### Objectives
+- read last error
+- read last 200 data.warning(non standard) from network tab
+- read last console error
+- read last console log
+
 ### Final Plan
 1. because the snippet works...
 2. store each warning, error, and log into an array of strings.
