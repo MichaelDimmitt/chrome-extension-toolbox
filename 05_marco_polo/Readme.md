@@ -18,3 +18,21 @@ console.log = function(data) {
   originalConsoleLog.apply(console, arguments);
 }
 ```
+
+### Final Plan
+1. because the snippet works...
+2. store each warning, error, and log into an array of strings.
+3. Keep the array at max size 50 ... removing old stdouts and keeping new stdouts
+4. aka pop the end when you push the begin
+5. content script starts the monitor
+6. popup to trigger the extension.
+7. when the chrome extension is clicked search back through for the nearest error ... and deconstruct it.
+8. Or timestamp deleiminate everything and grab what happened in last minute.
+
+#### Final Plan, Order of Escalation
+1. check network tab error
+2. check network tab warning
+3. check console error
+4. check console warn
+5. check console log
+6. tell user to write up their own report...
