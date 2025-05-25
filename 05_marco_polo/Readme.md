@@ -7,3 +7,4 @@
 ### links for quick reference:  
 https://developer.chrome.com/docs/extensions/reference/api  
 https://developer.chrome.com/docs/extensions/reference/api/devtools/network - permission: devtools_page
+https://bluerivermountains.com/en/log-all-javascript-events - but monitorEvents - does not work for console ...
